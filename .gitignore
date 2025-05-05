@@ -1,0 +1,14 @@
+# Ignorar archivos del sistema y entornos locales
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+.env
+.vscode/
+venv/
+.env.local
+*.sqlite3
+
+# Ignorar la carpeta con datos de MySQL (como mysql.sock)
+mysql_data/
